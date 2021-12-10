@@ -1,0 +1,151 @@
+.navbar {
+    margin-bottom: 20px;
+    background-color:white;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Arial, sans-serif;
+    color: #212529;
+}
+
+.navbar-brand {
+    font-size: 3.5rem;
+    color: #212529;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #777777;
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #212529 !important;
+}
+  
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ADB5BD !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.jumbotron {
+  background: url('bg1.jpg') no-repeat center center fixed;
+   background-size: cover;
+   padding: 11rem;
+   color: #F8F9FA;
+}
+
+.logo {
+    font-size: 200px;
+    color: #495057;
+    padding-top: 10rem;
+    padding-left: 2rem;
+}
+
+.cont {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #212529;
+    width: 100%;
+}
+
+.foot {
+    padding: 5px;
+    color: #F8F9FA;
+    font-style: italic;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.content1 {
+    padding-bottom: 7.5rem;
+}
+
+.content2 {
+    padding-bottom: 7.5rem;
+    background-color: #E9ECEF;
+}
+
+.thumb {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.chip,.finn, .oncas {
+    opacity: 0.7;
+}
+
+.icon {
+    color: #495057;
+    font-size: 60px;
+}
+
+.content4 {
+    margin-top: 5rem;
+    background-color: #E9ECEF;
+}
+
+a { color: inherit; } 
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 53px;
+  right: 0;
+  height: 300px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #343A40;
+}
+
+.thumb:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .navbar-brand {
+    font-size: 3.5rem; }
+}
+    
+
+@media screen and (max-width: 800px){
+    .navbar-brand {
+    font-size: 2.5rem; }
+    h1 {
+    font-size: 4rem;}
+    p {
+    font-size: 1.6rem;}
+    .jumbotron { 
+    padding: 9rem;}
+    .logo {
+    font-size: 0px;
+    color: white;
+    }
+}
